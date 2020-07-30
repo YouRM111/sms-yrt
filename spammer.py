@@ -1,6 +1,3 @@
-#!/usr/bin/python3
-# spymer v8.0
-# Author: FSystem88
 import os
 def MAIN():
 	try:
@@ -690,7 +687,7 @@ def MAIN():
 				global phone
 				global info
 				print ("Войдите в телефон для проверки:")
-				phone = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
+				phone = input(Fore.BLUE+"spamer > "+Style.RESET_ALL)
 				make7phone()
 				try:
 					if int(phone):
@@ -707,7 +704,7 @@ def MAIN():
 				global info
 
 				print ("Введите номер:")
-				phone = input(Fore.BLUE+"spymer > "+Style.RESET_ALL)
+				phone = input(Fore.BLUE+"spamer > "+Style.RESET_ALL)
 				make7phone()
 				try:
 					if int(phone):
